@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class ProxyBaker {
 
-    String file1 = "";
-    String file2 = "";
+    public String file1 = "";
+    public String file2 = "";
 
     public ProxyBaker(){}
 
@@ -23,16 +23,22 @@ public class ProxyBaker {
             Scanner sc = new Scanner(proxyToBeBake);
             InetAddressValidator checkIsIpValid = new InetAddressValidator();
             BufferedWriter printer = new BufferedWriter(new FileWriter(bakedProxyList));
-
+            int count = 0;
             while (sc.hasNext()){
                 String ip = sc.next();
                 if ( checkIsIpValid.isValid(ip) ){
-                    printer.write(ip + " " + sc.next());
-                    printer.newLine();
+                    if(count==0){
+                        printer.write(ip + " " + sc.next());
+                        count++;
+                    }else{
+                        printer.write("\n" + ip + " " + sc.next());
+                        count++;
+                    }
                 }
             }
             sc.close();
             printer.close();
+            //System.out.println(count);
 
         } catch (FileNotFoundException e) {
             System.out.println("File not found!!!");
