@@ -7,11 +7,22 @@ import java.sql.SQLOutput;
 
 public class Main {
 
+    public static void proxyTest(int proxyIndex, boolean booleanTest){
+        Proxy.changeProxy(proxyIndex);
+        System.out.println(ProxyList.ipList.get(proxyIndex));
+        HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
+        System.out.println(proxyTest.getStatusText());
+        if (proxyTest.getStatusText().equals("OK")){
+            System.out.println(proxyTest.getBody());
+            booleanTest=false;
+        }
+    }
+
     public static void main(String[] args){
         String filePath1 = "src/main/java/proxyRaw.txt";
         String filePath2 = "src/main/java/proxyBaked.txt";
-        boolean proxyUsable = true;
-        int proxyIndex = 0;
+
+
 
 
         ProxyBaker test = new ProxyBaker(filePath1, filePath2);
@@ -26,16 +37,37 @@ public class Main {
         //*************************************************************************************
 
         //while (proxyUsable){
-            Proxy.changeProxy(0);
-            HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
-            System.out.println(proxyTest.getBody());
+
        // }
 
 
-       // }
+        boolean proxyUsable = false;
+        int proxyIndex = 0;
+
+        for (String s : ProxyList.ipList){
+            if (!proxyUsable){
+                try {
+                    Proxy.changeProxy(proxyIndex);
+                    //1.print current ip.
+                    System.out.println(ProxyList.ipList.get(proxyIndex));
+                    //2.check if proxy works
+                    HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
+                    System.out.println(proxyTest.getStatusText());
+                    //3.1 if yes then print the body of the page
+                    if (proxyTest.getStatusText().equals("OK")){
+                        System.out.println(proxyTest.getStatusText());
+                        proxyUsable=true;
+                    }
+                    //3.2
+                }catch( UnirestException e ) {
+                    System.out.println("Unirest exception");
+                    System.out.println(proxyIndex);
+                    proxyIndex++;
+                }
+            }
+        }
 
 
 
     }
-
 }
