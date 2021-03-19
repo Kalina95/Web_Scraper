@@ -1,22 +1,11 @@
-import kong.unirest.HttpResponse;
-import kong.unirest.JsonNode;
-import kong.unirest.Unirest;
-import kong.unirest.UnirestException;
+import kong.unirest.*;
+import org.apache.http.conn.ConnectTimeoutException;
 
+import java.net.SocketTimeoutException;
 import java.sql.SQLOutput;
 
 public class Main {
 
-    public static void proxyTest(int proxyIndex, boolean booleanTest){
-        Proxy.changeProxy(proxyIndex);
-        System.out.println(ProxyList.ipList.get(proxyIndex));
-        HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
-        System.out.println(proxyTest.getStatusText());
-        if (proxyTest.getStatusText().equals("OK")){
-            System.out.println(proxyTest.getBody());
-            booleanTest=false;
-        }
-    }
 
     public static void main(String[] args){
         String filePath1 = "src/main/java/proxyRaw.txt";
@@ -40,30 +29,30 @@ public class Main {
 
        // }
 
-
-        boolean proxyUsable = false;
+        
         int proxyIndex = 0;
 
         for (String s : ProxyList.ipList){
-            if (!proxyUsable){
-                try {
-                    Proxy.changeProxy(proxyIndex);
-                    //1.print current ip.
-                    System.out.println(ProxyList.ipList.get(proxyIndex));
-                    //2.check if proxy works
-                    HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
-                    System.out.println(proxyTest.getStatusText());
-                    //3.1 if yes then print the body of the page
-                    if (proxyTest.getStatusText().equals("OK")){
-                        System.out.println(proxyTest.getStatusText());
-                        proxyUsable=true;
-                    }
-                    //3.2
-                }catch( UnirestException e ) {
-                    System.out.println("Unirest exception");
-                    System.out.println(proxyIndex);
-                    proxyIndex++;
+            try {
+                Proxy.resetProxy();
+                Proxy.changeProxy(proxyIndex);
+                System.out.println("Proxy index: " + proxyIndex);
+                //1.print current ip.
+                System.out.println("Ip: " + ProxyList.ipList.get(proxyIndex));
+                System.out.println("Port: " + ProxyList.portList.get(proxyIndex));
+                //2.check if proxy works
+                HttpResponse<String> proxyTest = Unirest.get("http://httpbin.org/get").asString();
+                //3.1 if yes then print the body of the page
+                if (proxyTest.getStatusText().equals("OK")){
+                    System.out.println("Proxy status: " + proxyTest.getStatusText());
+                    break;
                 }
+                //3.2
+            } catch( UnirestException e ) {
+                //e.printStackTrace();
+                System.out.println("Proxy status: Unavailable");
+                System.out.println("\n********************\n");
+                proxyIndex++;
             }
         }
 

@@ -12,4 +12,8 @@ public class Proxy {
         int port = ProxyList.portList.get(index);
         Unirest.config().proxy(ip, port);
     }
+
+    public static void resetProxy (){
+        Unirest.config().reset();
+    }
 }
