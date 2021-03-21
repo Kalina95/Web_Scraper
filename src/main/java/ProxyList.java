@@ -43,21 +43,11 @@ public class ProxyList {
             String tempPortString = sc.next();
             int tempPortInt = Integer.parseInt(tempPortString);
             addToList(tempIp,tempPortInt);
-
-//            System.out.println(count);
-//            System.out.println(getIpFromList(count));
-//            System.out.println(getPortFromList(count));
-//            addToList(tempIp, tempPortInt);
-//            System.out.println("\n" + "*********************" + "\n");
-//            count++;
-
         }
         sc.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-//        System.out.println(getIpFromList(0));
-//        System.out.println(getPortFromList(0));
     }
 
 }

@@ -18,10 +18,6 @@ Show
  entries
 Search all columns:
 IP Address	Port	Code	Country	Anonymity	Google	Https	Last Checked
-89.20.102.14	250	RU	Russian Federation	elite proxy	no	no	3 seconds ago
-176.108.104.8	4404	UA	Ukraine	elite proxy	no	no	3 seconds ago
-109.86.182.203	3128	UA	Ukraine	elite proxy	no	yes	3 seconds ago
-85.31.246.47	3128	PL	Poland	anonymous	no	no	3 seconds ago
 150.129.148.88	35101	IN	India	elite proxy	no	no	3 seconds ago
 91.149.203.9	3128	US	United States	elite proxy	no	yes	3 seconds ago
 177.244.36.134	8080	MX	Mexico	elite proxy	no	yes	3 seconds ago

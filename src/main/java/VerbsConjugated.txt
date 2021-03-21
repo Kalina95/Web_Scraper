@@ -1,0 +1,12 @@
+Présent je suis tu es il est nous sommes vous êtes ils sont je suis tu es il est nous sommes vous êtes ils sont
+Passé composé j'ai été tu as été il a été nous avons été vous avez été ils ont été j'ai été tu as été il a été nous avons été vous avez été ils ont été
+Imparfait j'étais tu étais il était nous étions vous étiez ils étaient j'étais tu étais il était nous étions vous étiez ils étaient
+Plus-que-parfait j'avais été tu avais été il avait été nous avions été vous aviez été ils avaient été j'avais été tu avais été il avait été nous avions été vous aviez été ils avaient été
+Présent j'ai tu as il a nous avons vous avez ils ont j'ai tu as il a nous avons vous avez ils ont
+Passé composé j'ai eu tu as eu il a eu nous avons eu vous avez eu ils ont eu j'ai eu tu as eu il a eu nous avons eu vous avez eu ils ont eu
+Imparfait j'avais tu avais il avait nous avions vous aviez ils avaient j'avais tu avais il avait nous avions vous aviez ils avaient
+Plus-que-parfait j'avais eu tu avais eu il avait eu nous avions eu vous aviez eu ils avaient eu j'avais eu tu avais eu il avait eu nous avions eu vous aviez eu ils avaient eu
+Présent je dors tu dors il dort nous dormons vous dormez ils dorment je dors tu dors il dort nous dormons vous dormez ils dorment
+Passé composé j'ai dormi tu as dormi il a dormi nous avons dormi vous avez dormi ils ont dormi j'ai dormi tu as dormi il a dormi nous avons dormi vous avez dormi ils ont dormi
+Imparfait je dormais tu dormais il dormait nous dormions vous dormiez ils dormaient je dormais tu dormais il dormait nous dormions vous dormiez ils dormaient
+Plus-que-parfait j'avais dormi tu avais dormi il avait dormi nous avions dormi vous aviez dormi ils avaient dormi j'avais dormi tu avais dormi il avait dormi nous avions dormi vous aviez dormi ils avaient dormi
