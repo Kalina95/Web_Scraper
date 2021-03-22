@@ -1,0 +1,125 @@
+etre
+Présent je suis tu es il est nous sommes vous êtes ils sont je suis tu es il est nous sommes vous êtes ils sont
+Passé composé j'ai été tu as été il a été nous avons été vous avez été ils ont été j'ai été tu as été il a été nous avons été vous avez été ils ont été
+Imparfait j'étais tu étais il était nous étions vous étiez ils étaient j'étais tu étais il était nous étions vous étiez ils étaient
+Plus-que-parfait j'avais été tu avais été il avait été nous avions été vous aviez été ils avaient été j'avais été tu avais été il avait été nous avions été vous aviez été ils avaient été
+avoir
+Présent j'ai tu as il a nous avons vous avez ils ont j'ai tu as il a nous avons vous avez ils ont
+Passé composé j'ai eu tu as eu il a eu nous avons eu vous avez eu ils ont eu j'ai eu tu as eu il a eu nous avons eu vous avez eu ils ont eu
+Imparfait j'avais tu avais il avait nous avions vous aviez ils avaient j'avais tu avais il avait nous avions vous aviez ils avaient
+Plus-que-parfait j'avais eu tu avais eu il avait eu nous avions eu vous aviez eu ils avaient eu j'avais eu tu avais eu il avait eu nous avions eu vous aviez eu ils avaient eu
+dormir
+Présent je dors tu dors il dort nous dormons vous dormez ils dorment je dors tu dors il dort nous dormons vous dormez ils dorment
+Passé composé j'ai dormi tu as dormi il a dormi nous avons dormi vous avez dormi ils ont dormi j'ai dormi tu as dormi il a dormi nous avons dormi vous avez dormi ils ont dormi
+Imparfait je dormais tu dormais il dormait nous dormions vous dormiez ils dormaient je dormais tu dormais il dormait nous dormions vous dormiez ils dormaient
+Plus-que-parfait j'avais dormi tu avais dormi il avait dormi nous avions dormi vous aviez dormi ils avaient dormi j'avais dormi tu avais dormi il avait dormi nous avions dormi vous aviez dormi ils avaient dormi
+pouvoir
+Présent je peux tu peux il peut nous pouvons vous pouvez ils peuvent je peux tu peux il peut nous pouvons vous pouvez ils peuvent
+Passé composé j'ai pu tu as pu il a pu nous avons pu vous avez pu ils ont pu j'ai pu tu as pu il a pu nous avons pu vous avez pu ils ont pu
+Imparfait je pouvais tu pouvais il pouvait nous pouvions vous pouviez ils pouvaient je pouvais tu pouvais il pouvait nous pouvions vous pouviez ils pouvaient
+Plus-que-parfait j'avais pu tu avais pu il avait pu nous avions pu vous aviez pu ils avaient pu j'avais pu tu avais pu il avait pu nous avions pu vous aviez pu ils avaient pu
+faire
+Présent je fais tu fais il fait nous faisons vous faites ils font je fais tu fais il fait nous faisons vous faites ils font
+Passé composé j'ai fait tu as fait il a fait nous avons fait vous avez fait ils ont fait j'ai fait tu as fait il a fait nous avons fait vous avez fait ils ont fait
+Imparfait je faisais tu faisais il faisait nous faisions vous faisiez ils faisaient je faisais tu faisais il faisait nous faisions vous faisiez ils faisaient
+Plus-que-parfait j'avais fait tu avais fait il avait fait nous avions fait vous aviez fait ils avaient fait j'avais fait tu avais fait il avait fait nous avions fait vous aviez fait ils avaient fait
+mettre
+Présent je mets tu mets il met nous mettons vous mettez ils mettent je mets tu mets il met nous mettons vous mettez ils mettent
+Passé composé j'ai mis tu as mis il a mis nous avons mis vous avez mis ils ont mis j'ai mis tu as mis il a mis nous avons mis vous avez mis ils ont mis
+Imparfait je mettais tu mettais il mettait nous mettions vous mettiez ils mettaient je mettais tu mettais il mettait nous mettions vous mettiez ils mettaient
+Plus-que-parfait j'avais mis tu avais mis il avait mis nous avions mis vous aviez mis ils avaient mis j'avais mis tu avais mis il avait mis nous avions mis vous aviez mis ils avaient mis
+dire
+Présent je dis tu dis il dit nous disons vous dites ils disent je dis tu dis il dit nous disons vous dites ils disent
+Passé composé j'ai dit tu as dit il a dit nous avons dit vous avez dit ils ont dit j'ai dit tu as dit il a dit nous avons dit vous avez dit ils ont dit
+Imparfait je disais tu disais il disait nous disions vous disiez ils disaient je disais tu disais il disait nous disions vous disiez ils disaient
+Plus-que-parfait j'avais dit tu avais dit il avait dit nous avions dit vous aviez dit ils avaient dit j'avais dit tu avais dit il avait dit nous avions dit vous aviez dit ils avaient dit
+devoir
+Présent je dois tu dois il doit nous devons vous devez ils doivent je dois tu dois il doit nous devons vous devez ils doivent
+Passé composé j'ai dû tu as dû il a dû nous avons dû vous avez dû ils ont dû j'ai dû tu as dû il a dû nous avons dû vous avez dû ils ont dû
+Imparfait je devais tu devais il devait nous devions vous deviez ils devaient je devais tu devais il devait nous devions vous deviez ils devaient
+Plus-que-parfait j'avais dû tu avais dû il avait dû nous avions dû vous aviez dû ils avaient dû j'avais dû tu avais dû il avait dû nous avions dû vous aviez dû ils avaient dû
+prendre
+Présent je prends tu prends il prend nous prenons vous prenez ils prennent je prends tu prends il prend nous prenons vous prenez ils prennent
+Passé composé j'ai pris tu as pris il a pris nous avons pris vous avez pris ils ont pris j'ai pris tu as pris il a pris nous avons pris vous avez pris ils ont pris
+Imparfait je prenais tu prenais il prenait nous prenions vous preniez ils prenaient je prenais tu prenais il prenait nous prenions vous preniez ils prenaient
+Plus-que-parfait j'avais pris tu avais pris il avait pris nous avions pris vous aviez pris ils avaient pris j'avais pris tu avais pris il avait pris nous avions pris vous aviez pris ils avaient pris
+donner
+Présent je donne tu donnes il donne nous donnons vous donnez ils donnent je donne tu donnes il donne nous donnons vous donnez ils donnent
+Passé composé j'ai donné tu as donné il a donné nous avons donné vous avez donné ils ont donné j'ai donné tu as donné il a donné nous avons donné vous avez donné ils ont donné
+Imparfait je donnais tu donnais il donnait nous donnions vous donniez ils donnaient je donnais tu donnais il donnait nous donnions vous donniez ils donnaient
+Plus-que-parfait j'avais donné tu avais donné il avait donné nous avions donné vous aviez donné ils avaient donné j'avais donné tu avais donné il avait donné nous avions donné vous aviez donné ils avaient donné
+aller
+Présent je vais tu vas il va nous allons vous allez ils vont je vais tu vas il va nous allons vous allez ils vont
+Passé composé je suis allé tu es allé il est allé nous sommes allés vous êtes allés ils sont allés je suis allé tu es allé il est allé nous sommes allés vous êtes allés ils sont allés
+Imparfait j'allais tu allais il allait nous allions vous alliez ils allaient j'allais tu allais il allait nous allions vous alliez ils allaient
+Plus-que-parfait j'étais allé tu étais allé il était allé nous étions allés vous étiez allés ils étaient allés j'étais allé tu étais allé il était allé nous étions allés vous étiez allés ils étaient allés
+vouloir
+Présent je veux tu veux il veut nous voulons vous voulez ils veulent je veux tu veux il veut nous voulons vous voulez ils veulent
+Passé composé j'ai voulu tu as voulu il a voulu nous avons voulu vous avez voulu ils ont voulu j'ai voulu tu as voulu il a voulu nous avons voulu vous avez voulu ils ont voulu
+Imparfait je voulais tu voulais il voulait nous voulions vous vouliez ils voulaient je voulais tu voulais il voulait nous voulions vous vouliez ils voulaient
+Plus-que-parfait j'avais voulu tu avais voulu il avait voulu nous avions voulu vous aviez voulu ils avaient voulu j'avais voulu tu avais voulu il avait voulu nous avions voulu vous aviez voulu ils avaient voulu
+savoir
+Présent je sais tu sais il sait nous savons vous savez ils savent je sais tu sais il sait nous savons vous savez ils savent
+Passé composé j'ai su tu as su il a su nous avons su vous avez su ils ont su j'ai su tu as su il a su nous avons su vous avez su ils ont su
+Imparfait je savais tu savais il savait nous savions vous saviez ils savaient je savais tu savais il savait nous savions vous saviez ils savaient
+Plus-que-parfait j'avais su tu avais su il avait su nous avions su vous aviez su ils avaient su j'avais su tu avais su il avait su nous avions su vous aviez su ils avaient su
+falloir
+Présent - - il faut - - - - - il faut - - -
+Passé composé - - il a fallu - - - - - il a fallu - - -
+Imparfait - - il fallait - - - - - il fallait - - -
+Plus-que-parfait - - il avait fallu - - - - - il avait fallu - - -
+voir
+Présent je vois tu vois il voit nous voyons vous voyez ils voient je vois tu vois il voit nous voyons vous voyez ils voient
+Passé composé j'ai vu tu as vu il a vu nous avons vu vous avez vu ils ont vu j'ai vu tu as vu il a vu nous avons vu vous avez vu ils ont vu
+Imparfait je voyais tu voyais il voyait nous voyions vous voyiez ils voyaient je voyais tu voyais il voyait nous voyions vous voyiez ils voyaient
+Plus-que-parfait j'avais vu tu avais vu il avait vu nous avions vu vous aviez vu ils avaient vu j'avais vu tu avais vu il avait vu nous avions vu vous aviez vu ils avaient vu
+demander
+Présent je demande tu demandes il demande nous demandons vous demandez ils demandent je demande tu demandes il demande nous demandons vous demandez ils demandent
+Passé composé j'ai demandé tu as demandé il a demandé nous avons demandé vous avez demandé ils ont demandé j'ai demandé tu as demandé il a demandé nous avons demandé vous avez demandé ils ont demandé
+Imparfait je demandais tu demandais il demandait nous demandions vous demandiez ils demandaient je demandais tu demandais il demandait nous demandions vous demandiez ils demandaient
+Plus-que-parfait j'avais demandé tu avais demandé il avait demandé nous avions demandé vous aviez demandé ils avaient demandé j'avais demandé tu avais demandé il avait demandé nous avions demandé vous aviez demandé ils avaient demandé
+trouver
+Présent je trouve tu trouves il trouve nous trouvons vous trouvez ils trouvent je trouve tu trouves il trouve nous trouvons vous trouvez ils trouvent
+Passé composé j'ai trouvé tu as trouvé il a trouvé nous avons trouvé vous avez trouvé ils ont trouvé j'ai trouvé tu as trouvé il a trouvé nous avons trouvé vous avez trouvé ils ont trouvé
+Imparfait je trouvais tu trouvais il trouvait nous trouvions vous trouviez ils trouvaient je trouvais tu trouvais il trouvait nous trouvions vous trouviez ils trouvaient
+Plus-que-parfait j'avais trouvé tu avais trouvé il avait trouvé nous avions trouvé vous aviez trouvé ils avaient trouvé j'avais trouvé tu avais trouvé il avait trouvé nous avions trouvé vous aviez trouvé ils avaient trouvé
+rendre
+Présent je rends tu rends il rend nous rendons vous rendez ils rendent je rends tu rends il rend nous rendons vous rendez ils rendent
+Passé composé j'ai rendu tu as rendu il a rendu nous avons rendu vous avez rendu ils ont rendu j'ai rendu tu as rendu il a rendu nous avons rendu vous avez rendu ils ont rendu
+Imparfait je rendais tu rendais il rendait nous rendions vous rendiez ils rendaient je rendais tu rendais il rendait nous rendions vous rendiez ils rendaient
+Plus-que-parfait j'avais rendu tu avais rendu il avait rendu nous avions rendu vous aviez rendu ils avaient rendu j'avais rendu tu avais rendu il avait rendu nous avions rendu vous aviez rendu ils avaient rendu
+venir
+Présent je viens tu viens il vient nous venons vous venez ils viennent je viens tu viens il vient nous venons vous venez ils viennent
+Passé composé je suis venu tu es venu il est venu nous sommes venus vous êtes venus ils sont venus je suis venu tu es venu il est venu nous sommes venus vous êtes venus ils sont venus
+Imparfait je venais tu venais il venait nous venions vous veniez ils venaient je venais tu venais il venait nous venions vous veniez ils venaient
+Plus-que-parfait j'étais venu tu étais venu il était venu nous étions venus vous étiez venus ils étaient venus j'étais venu tu étais venu il était venu nous étions venus vous étiez venus ils étaient venus
+passer
+Présent je passe tu passes il passe nous passons vous passez ils passent je passe tu passes il passe nous passons vous passez ils passent
+Passé composé j'ai passé tu as passé il a passé nous avons passé vous avez passé ils ont passé j'ai passé tu as passé il a passé nous avons passé vous avez passé ils ont passé
+Imparfait je passais tu passais il passait nous passions vous passiez ils passaient je passais tu passais il passait nous passions vous passiez ils passaient
+Plus-que-parfait j'avais passé tu avais passé il avait passé nous avions passé vous aviez passé ils avaient passé j'avais passé tu avais passé il avait passé nous avions passé vous aviez passé ils avaient passé
+comprendre
+Présent je comprends tu comprends il comprend nous comprenons vous comprenez ils comprennent je comprends tu comprends il comprend nous comprenons vous comprenez ils comprennent
+Passé composé j'ai compris tu as compris il a compris nous avons compris vous avez compris ils ont compris j'ai compris tu as compris il a compris nous avons compris vous avez compris ils ont compris
+Imparfait je comprenais tu comprenais il comprenait nous comprenions vous compreniez ils comprenaient je comprenais tu comprenais il comprenait nous comprenions vous compreniez ils comprenaient
+Plus-que-parfait j'avais compris tu avais compris il avait compris nous avions compris vous aviez compris ils avaient compris j'avais compris tu avais compris il avait compris nous avions compris vous aviez compris ils avaient compris
+rester
+Présent je reste tu restes il reste nous restons vous restez ils restent je reste tu restes il reste nous restons vous restez ils restent
+Passé composé je suis resté tu es resté il est resté nous sommes restés vous êtes restés ils sont restés je suis resté tu es resté il est resté nous sommes restés vous êtes restés ils sont restés
+Imparfait je restais tu restais il restait nous restions vous restiez ils restaient je restais tu restais il restait nous restions vous restiez ils restaient
+Plus-que-parfait j'étais resté tu étais resté il était resté nous étions restés vous étiez restés ils étaient restés j'étais resté tu étais resté il était resté nous étions restés vous étiez restés ils étaient restés
+tenir
+Présent je tiens tu tiens il tient nous tenons vous tenez ils tiennent je tiens tu tiens il tient nous tenons vous tenez ils tiennent
+Passé composé j'ai tenu tu as tenu il a tenu nous avons tenu vous avez tenu ils ont tenu j'ai tenu tu as tenu il a tenu nous avons tenu vous avez tenu ils ont tenu
+Imparfait je tenais tu tenais il tenait nous tenions vous teniez ils tenaient je tenais tu tenais il tenait nous tenions vous teniez ils tenaient
+Plus-que-parfait j'avais tenu tu avais tenu il avait tenu nous avions tenu vous aviez tenu ils avaient tenu j'avais tenu tu avais tenu il avait tenu nous avions tenu vous aviez tenu ils avaient tenu
+porter
+Présent je porte tu portes il porte nous portons vous portez ils portent je porte tu portes il porte nous portons vous portez ils portent
+Passé composé j'ai porté tu as porté il a porté nous avons porté vous avez porté ils ont porté j'ai porté tu as porté il a porté nous avons porté vous avez porté ils ont porté
+Imparfait je portais tu portais il portait nous portions vous portiez ils portaient je portais tu portais il portait nous portions vous portiez ils portaient
+Plus-que-parfait j'avais porté tu avais porté il avait porté nous avions porté vous aviez porté ils avaient porté j'avais porté tu avais porté il avait porté nous avions porté vous aviez porté ils avaient porté
+parler
+Présent je parle tu parles il parle nous parlons vous parlez ils parlent je parle tu parles il parle nous parlons vous parlez ils parlent
+Passé composé j'ai parlé tu as parlé il a parlé nous avons parlé vous avez parlé ils ont parlé j'ai parlé tu as parlé il a parlé nous avons parlé vous avez parlé ils ont parlé
+Imparfait je parlais tu parlais il parlait nous parlions vous parliez ils parlaient je parlais tu parlais il parlait nous parlions vous parliez ils parlaient
+Plus-que-parfait j'avais parlé tu avais parlé il avait parlé nous avions parlé vous aviez parlé ils avaient parlé j'avais parlé tu avais parlé il avait parlé nous avions parlé vous aviez parlé ils avaient parlé
