@@ -9,80 +9,65 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ScraperFrancaisConjugation {
+    //how many tables from website do you want to copy
+    static int numberOfTables = 4;
 
+    //direct
     static String URL = "https://la-conjugaison.nouvelobs.com/du/verbe/sampleVerb.php";
-    //static String URL = "https://la-conjugaison.nouvelobs.com/rechercher/index.php?l=fr&q=sampleVerb";
-    //static String URL = "https://lem.nouvelobs.com/hit.obs?s=561552&idclient=5b486fed-679a-4ec9-8671-32" +
-    //       "8b258349ed&ts=1616170574116&vtag=5.18.0&ptag=js&r=1440x900x30x30&re=870x699&hl=17x16x14&lng=en-" +
-    //     "GB&idp=1716147774956&p=conjugaisonFR::sampleVerb&s2=34&x1=[La_Conjugaison]&x2=7&x3=1&x4=2&x22=1";
-
 
     static ArrayList<String> verbsList = new ArrayList<>();
     static ArrayList<String> urlList = new ArrayList<>();
 
-    public ScraperFrancaisConjugation(){}
+    public ScraperFrancaisConjugation() {
+    }
 
-    public static void addVerbsToList(){
-        File Verbs = new File("src/main/java/Verbs.txt");
+    public static void addVerbsToList(String pathWithPlainVerbs) {
+        File Verbs = new File(pathWithPlainVerbs);
         try {
             Scanner sc = new Scanner(Verbs);
-            while(sc.hasNextLine()){
-                //System.out.println(sc.nextLine());
+            while (sc.hasNextLine()) {
                 verbsList.add(sc.nextLine());
             }
             sc.close();
-            for(String s : verbsList){
-                System.out.println(s);
-            }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
-    public static void urlMaker(){
-        for (String verb : verbsList){
-            String newURL = URL.replace("sampleVerb", verb);
+    public static void urlMaker(String URLtoScrap) {
+        for (String verb : verbsList) {
+            String newURL = URLtoScrap.replace("sampleVerb", verb);
             urlList.add(newURL);
         }
     }
 
-    public static void urlScrapper(){
-        //HttpResponse<String> response = Unirest.get(urlList.get(0)).asString();
-        //System.out.println(response.getBody());
-        int count =0;
-        File file = new File("src/main/java/VerbsConjugated.txt");
+    public static void urlScrapper(String pathToVerbs, String pathToScrappedVerbs) {
+        int count = 0;
+        File scrappedVerbs = new File(pathToScrappedVerbs);
+        File verbs = new File(pathToVerbs);
         try {
-            Writer writer = new FileWriter(file);
+            Writer writer = new FileWriter(scrappedVerbs);
+            Scanner scanner = new Scanner(verbs);
 
-        for (String url : urlList) {
-            HttpResponse<String> response = Unirest.get(urlList.get(count)).asString();
-            Document toParse = Jsoup.parseBodyFragment(response.getBody());
-            /*for (Element result : toParse.select("#contenu > div:nth-child(7) > div")){
-                String s1 = result.select("b:nth-child(1)").text();
-                System.out.println(s1);
-            }
-            count++;*/
+            for (String url : urlList) {
+                HttpResponse<String> response = Unirest.get(urlList.get(count)).asString();
+                Document toParse = Jsoup.parseBodyFragment(response.getBody());
 
-            for (int child = 7; child <=10; child++){
-                for (Element result : toParse.select("#contenu > div:nth-child("+child+")")){
-                    String s1 = result.select("div").text();
-                    writer.write(s1+"\n");
-                    System.out.println(s1);
+                writer.write(scanner.nextLine() + "\n");
+
+                for (int child = 7; child <= (7 + numberOfTables - 1); child++) {
+                    for (Element result : toParse.select("#contenu > div:nth-child(" + child + ")")) {
+                        String s1 = result.select("div").text();
+                        writer.write(s1 + "\n");
+                        //System.out.println(s1);
+                    }
                 }
+                count++;
             }
-
-            count++;
-
-
-        }
-        writer.close();
+            writer.close();
+            scanner.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-
-
-
-
 }

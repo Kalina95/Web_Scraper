@@ -3,14 +3,14 @@ import org.apache.commons.validator.routines.InetAddressValidator;
 import java.io.*;
 import java.util.Scanner;
 
-public class ProxyBaker {
+public class ProxyFilter {
 
     public String file1 = "";
     public String file2 = "";
 
-    public ProxyBaker(){}
+    public ProxyFilter(){}
 
-    public ProxyBaker(String s1, String s2){
+    public ProxyFilter(String s1, String s2){
         file1 = s1;
         file2 = s2;
     }
